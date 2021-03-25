@@ -26,7 +26,7 @@ import { AvisoDePrivacidadComponent } from './components/aviso-de-privacidad/avi
 
 const routes: Routes = [
   {path: 'catalogo', component: CatalogoComponent},
-  {path: 'proceso-artesanal-y-recetas', component: ProcesoArtesanalYRecetasComponent},
+  {path: 'recetario-y-proceso-artesanal', component: ProcesoArtesanalYRecetasComponent},
   // {path: 'nosotros', component: NosotrosComponent},
   {path: 'nuestra-historia', component: NuestraHistoriaComponent},
   {path: 'nuestra-familia', component: NuestraFamiliaComponent},

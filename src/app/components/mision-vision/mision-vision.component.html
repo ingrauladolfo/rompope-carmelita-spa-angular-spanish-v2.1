@@ -1,10 +1,15 @@
 <div class="background">
-    <div class="container mt-5 pt-5" *ngFor="let politica of politica">
-        <div class="row justify-content-center mx-auto  " >
-            <h2 class="font-weight-bolder text-center" style="color:rgb(255,255,255);">{{politica.tipo}}</h2>
-        </div>
-        <div class="row justify-content-center mx-auto pt-5">
-            <p class="font-weight-bolder text-center" style="color:rgb(255,255,255);">{{politica.descripcion}}</p>
+    <div class="container mt-5 pt-5">
+        <div class="row" >
+            <div class="col-sm-4 mb-3" *ngFor="let politica of politica">
+                <div class="card" style="width: 21rem;">
+                    <img [src]="politica.img" class="img-fluid card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title font-weight-bolder text-center display-5 h-5">{{politica.tipo}}</h5>
+                      <p class="card-text text-center">{{politica.descripcion}}</p>
+                    </div>
+                  </div>
+            </div>
         </div>
     </div>
     
