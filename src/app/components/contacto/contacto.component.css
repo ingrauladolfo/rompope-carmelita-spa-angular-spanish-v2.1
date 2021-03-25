@@ -1,7 +1,7 @@
 @media(min-width: 100px) {
     .background {
         width: 100%;
-        height: calc(100%-10px);
+        height: 800px;
         background: url('../../../assets/img/fondos/contact.png');
         background-size: cover;
         background-repeat: no-repeat;
@@ -26,6 +26,8 @@
         z-index: 2;
         text-align: center;
         font-family: GIOVANNI;
+        margin-top: 200px;
+        margin-left: 25px;
     }
     button {
         background-color: #741b1d;
@@ -93,6 +95,7 @@
         z-index: 2;
         text-align: center;
         font-family: GIOVANNI;
+        margin-top: 200px;
     }
     button {
         background-color: #741b1d;
@@ -160,6 +163,7 @@
         z-index: 2;
         text-align: center;
         font-family: GIOVANNI;
+        margin-top: 200px;
     }
     button {
         background-color: #741b1d;
@@ -226,6 +230,7 @@
         z-index: 2;
         text-align: center;
         font-family: GIOVANNI;
+        margin-top: 200px;
     }
     button {
         background-color: #741b1d;
@@ -292,6 +297,7 @@
         z-index: 2;
         text-align: center;
         font-family: GIOVANNI;
+        margin-top: 200px;
     }
     button {
         background-color: #741b1d;
@@ -359,6 +365,7 @@
         z-index: 2;
         text-align: center;
         font-family: GIOVANNI;
+        margin-top: 200px;
     }
     button {
         background-color: #741b1d;
@@ -426,6 +433,7 @@
         z-index: 2;
         text-align: center;
         font-family: GIOVANNI;
+        margin-top: 200px;
     }
     button {
         background-color: #741b1d;
@@ -493,6 +501,7 @@
         z-index: 2;
         text-align: center;
         font-family: GIOVANNI;
+        margin-top: 200px;
     }
     button {
         background-color: #741b1d;
@@ -560,6 +569,7 @@
         z-index: 2;
         text-align: center;
         font-family: GIOVANNI;
+        margin-top: 200px;
     }
     button {
         background-color: #741b1d;
@@ -627,6 +637,7 @@
         z-index: 2;
         text-align: center;
         font-family: GIOVANNI;
+        margin-top: 200px;
     }
     button {
         background-color: #741b1d;
