@@ -43,6 +43,7 @@ import { HaccpComponent } from './components/haccp/haccp.component';
 import { NomScfiComponent } from './components/nom-scfi/nom-scfi.component';
 import { TerminosYCondicionesComponent } from './components/terminos-y-condiciones/terminos-y-condiciones.component';
 import { AvisoDePrivacidadComponent } from './components/aviso-de-privacidad/aviso-de-privacidad.component';
+import { Mugan86GoogleAnalyticsModule } from 'mugan86-ng-google-analytics';
 @NgModule({
   declarations: [
     AppComponent,
@@ -89,6 +90,12 @@ import { AvisoDePrivacidadComponent } from './components/aviso-de-privacidad/avi
     NgxExtendedPdfViewerModule,
     LightboxModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    Mugan86GoogleAnalyticsModule.forRoot(
+      {
+        analyticsId: 'G-J5M0NT56B9G',
+        showLog: true
+      }
+    )
   ],
   providers: [
     RecetarioCarmelitaService,

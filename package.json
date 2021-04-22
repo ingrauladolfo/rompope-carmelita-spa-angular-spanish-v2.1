@@ -24,6 +24,7 @@
     "@angular/service-worker": "~11.0.2",
     "angular-bootstrap-md": "^10.1.1",
     "bootstrap": "^4.5.3",
+    "mugan86-ng-google-analytics": "^1.1.1",
     "ngx-bootstrap": "^6.2.0",
     "ngx-extended-pdf-viewer": "^7.0.0-beta.2",
     "ngx-lightbox": "^2.2.2",

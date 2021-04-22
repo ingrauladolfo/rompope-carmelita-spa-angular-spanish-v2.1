@@ -23,7 +23,7 @@
     h1 {
         font-size: 25px;
         font-weight: 600;
-        text-transform: capitalize;
+        text-transform: none;
         color: #ffffff;
         position: relative;
         z-index: 2;
