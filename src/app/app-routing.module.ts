@@ -6,7 +6,6 @@ import { DepartamentosComponent } from './components/departamentos/departamentos
 import { InicioComponent } from './components/inicio/inicio.component';
 import { MisionVisionComponent } from './components/mision-vision/mision-vision.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
-import { NotFoundComponent } from './components/not-found/not-found.component';
 import { NuestraFamiliaComponent } from './components/nuestra-familia/nuestra-familia.component';
 import { NuestraHistoriaComponent } from './components/nuestra-historia/nuestra-historia.component';
 import { ProcesoArtesanalYRecetasComponent } from './components/proceso-artesanal-y-recetas/proceso-artesanal-y-recetas.component';
@@ -40,15 +39,14 @@ const routes: Routes = [
   {path: 'recetas-carmelita/:id', component: RecetarioCarmelitaComponent},
   {path: 'recetas-carmelita/galeria/:id', component: GaleriaRecetasComponent},
   {path: 'momentos-carmelita/galeria/:id', component: GaleriaMomentosCarmelitaComponent},
-  {path: '404', component: NotFoundComponent},
   {path: 'certificaciones/galeria/haccp', component: HaccpComponent},
   {path: 'certificaciones/galeria/nom-scfi', component: NomScfiComponent},
   {path: 'puntos-de-ventas-mexico', component: PuntosVentasMxComponent},
   {path: 'puntos-ventas-eua', component: PuntosVentasEuaComponent},
   {path: 'terminos-y-condiciones', component: TerminosYCondicionesComponent},
   {path: 'aviso-de-privacidad', component: AvisoDePrivacidadComponent},
-  {path: '', component: InicioComponent, pathMatch: 'full'},
-  {path: '**', pathMatch: 'full', redirectTo: '404'},
+  {path: '', component: InicioComponent, pathMatch:'full'},
+  {path: '**', redirectTo:'puntos-de-ventas' }
 
 ];
 

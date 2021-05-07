@@ -7,7 +7,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { MediaSidebarComponent } from './components/media-sidebar/media-sidebar.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { NotFoundComponent } from './components/not-found/not-found.component';
 import { InicioComponent } from './components/inicio/inicio.component';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
@@ -50,7 +49,6 @@ import { Mugan86GoogleAnalyticsModule } from 'mugan86-ng-google-analytics';
     NavbarComponent,
     MediaSidebarComponent,
     FooterComponent,
-    NotFoundComponent,
     InicioComponent,
     CatalogoComponent,
     ProcesoArtesanalYRecetasComponent,
